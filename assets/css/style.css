@@ -1,0 +1,86 @@
+body{
+  background-color: black;
+}
+
+div{
+	background-color: yellow;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+  text-align: center;
+  color: blue;
+}
+h1{
+  font-size: 30pt;
+}
+h2{
+  font-size:22px;
+}
+h3{
+  font-size:22px;
+}
+ol{
+  list-style: decimal inside; 
+  color: green;
+  font-size:18px
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
+
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 50px;
+  margin: 10px;
+}
+
+.dn-diamond {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background:yellow;
+  transform: rotate(-45deg);
+  margin: 50px;
+  overflow: hidden;
+  position: relative;
+  position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+.dn-diamond {
+  animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+  from { 
+    transform: rotateY(0deg) rotate(-45deg); 
+  }
+  to {
+    transform: rotateY(360deg) rotate(-45deg); 
+  }
+}
+
